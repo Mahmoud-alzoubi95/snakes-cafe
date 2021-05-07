@@ -42,11 +42,16 @@ order_list=[]
 
 
 
+
 while True:
 
     order=input("> ")
+
+    if order=="quite":
+        break
     
-    if order.capitalize() in menue:
+    elif order.capitalize() in menue:
+
         if order not in order_list:
             order_list.append(order)
             # print(">",f"{order}")
@@ -57,12 +62,11 @@ while True:
             # print('>',f"{order}")
             print("**",order_list.count(order),"orders of",order,"have been added to your meal**\n")
             
-        elif order=="quite":
-            exit()
+
 
     else:
         print('please choose from the menue\n')
-        break                    
+         
 
 
 

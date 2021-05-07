@@ -1,1 +1,1 @@
-i discussed the ideas with noor omari and rawan 
+I discussed the ideas with noor omari and rawan
